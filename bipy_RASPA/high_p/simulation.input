@@ -1,0 +1,23 @@
+SimulationType                MonteCarlo
+NumberOfCycles                100000
+#NumberOfInitializationCycles  100000
+PrintEvery                    1000
+RestartFile                   yes
+
+Forcefield                    JamesMOFsJuneForceField
+UseChargesFromCIFFile         no
+
+Framework 0
+FrameworkName bipy_vol_46.44
+UnitCells 1 1 1
+ExternalTemperature 120.0
+ExternalPressure 65e5
+
+Component 0 MoleculeName             methane
+            MoleculeDefinition       ExampleDefinitions
+            TranslationProbability   0.5
+            RotationProbability      0.0
+            ReinsertionProbability   0.5
+            SwapProbability          1.0
+            CreateNumberOfMolecules  0
+

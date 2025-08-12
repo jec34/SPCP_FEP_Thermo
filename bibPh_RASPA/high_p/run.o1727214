@@ -1,0 +1,17 @@
+
+Neither the environment variable CONDOR_CONFIG,
+/etc/condor/, /usr/local/etc/, nor ~condor/ contain a condor_config source.
+Either set CONDOR_CONFIG to point to a valid config source,
+or put a "condor_config" file in /etc/condor/ /usr/local/etc/ or ~condor/
+Exiting.
+
+_cell_length_a: 60.944839
+_cell_length_b: 60.944839
+_cell_length_c: 60.944839
+_cell_length_alpha: 90.000000
+_cell_length_beta: 90.000000
+_cell_length_gamma: 90.000000
+_symmetry_space_group_name_H-M: P1 found space group: 1
+End reading cif-file
+Shift all potentials
+'force_field.def' file not found and therefore not used

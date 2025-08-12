@@ -1,0 +1,11 @@
+#! /bin/bash
+
+#$ -M jcarpen3@nd.edu
+#$ -m abe
+#$ -q hpc@@colon
+#$ -N bipy_lowT+p
+
+export RASPA_DIR=~/.conda/envs/raspa_env
+export DYLD_LIBRARY_PATH=${RASPA_DIR}/lib
+export LD_LIBRARY_PATH=${RASPA_DIR}/lib
+$RASPA_DIR/bin/simulate simulation.input
