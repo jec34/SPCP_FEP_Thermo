@@ -1,0 +1,9 @@
+#!/bin/bash
+#$ -q hpc@@colon
+#$ -pe smp 8
+
+module load lammps
+
+n_core=8
+
+mpirun -np ${n_core} lmp_mpi -in VARIABLE.in >VARIABLE.out
